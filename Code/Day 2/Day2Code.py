@@ -7,4 +7,4 @@ head_count = int(input("How many people to split the bill?"))
 
 each_part_bill = (bill_amount + (bill_amount * tip_percent / 100))/head_count
 
-print(f"Each person should pay:", each_part_bill)
+print(f"Each person should pay:" + str(round(each_part_bill,2)))
